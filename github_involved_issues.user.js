@@ -7,7 +7,7 @@
 // @license     2-clause BSDL
 // @author      Akinori MUSHA
 // @include     https://github.com/*
-// @version     1.0.0
+// @version     1.0.1
 // @homepage    https://github.com/knu/userjs-github_involved_issues
 // @homepage    https://greasyfork.org/scripts/25200-github-involved-issues
 // @grant       none
@@ -30,10 +30,10 @@
         const href = links[i].getAttribute("href")
         switch (href) {
         case "/pulls":
-            links[i].setAttribute("href", href + "?q=" + encode("is:open is:pr involves:" + user))
+            links[i].setAttribute("href", href + "?q=" + encode("is:open is:pr involves:" + user + " sort:updated-desc"))
             break
         case "/issues":
-            links[i].setAttribute("href", href + "?q=" + encode("is:open is:issue involves:" + user))
+            links[i].setAttribute("href", href + "?q=" + encode("is:open is:issue involves:" + user + " sort:updated-desc"))
             break
         }
     }
