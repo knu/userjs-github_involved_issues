@@ -2,11 +2,14 @@
 // @name        GitHub: involved issues
 // @namespace   https://akinori.org
 // @description Make the Pulls and Issues links show your involved issues
+// @downloadURL https://greasyfork.org/scripts/25200-github-involved-issues/code/GitHub:%20involved%20issues.user.js
+// @updateURL   https://greasyfork.org/scripts/25200-github-involved-issues/code/GitHub:%20involved%20issues.meta.js
 // @license     2-clause BSDL
 // @author      Akinori MUSHA
 // @include     https://github.com/*
-// @version     0.9.9
+// @version     1.0.0
 // @homepage    https://github.com/knu/userjs-github_involved_issues
+// @homepage    https://greasyfork.org/scripts/25200-github-involved-issues
 // @grant       none
 
 // ==/UserScript==
