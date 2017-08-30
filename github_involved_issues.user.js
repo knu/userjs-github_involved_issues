@@ -7,7 +7,7 @@
 // @license     2-clause BSDL
 // @author      Akinori MUSHA
 // @include     https://github.com/*
-// @version     1.0.2
+// @version     1.0.3
 // @homepage    https://github.com/knu/userjs-github_involved_issues
 // @homepage    https://greasyfork.org/scripts/25200-github-involved-issues
 // @grant       none
@@ -25,7 +25,7 @@
         return encodeURIComponent(decoded).replace(/%20/g, "+")
     }
 
-    const links = document.querySelectorAll(".header-navlink")
+    const links = document.querySelectorAll("header ul li a")
     for (let i = 0; i < links.length; i++) {
         const href = links[i].getAttribute("href")
         switch (href) {
